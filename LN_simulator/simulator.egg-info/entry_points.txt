@@ -1,0 +1,3 @@
+[console_scripts]
+lnsimulate = src.command_line:main
+
