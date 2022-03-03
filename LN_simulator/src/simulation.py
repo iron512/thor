@@ -2,10 +2,10 @@ from random import choice, randint
 
 import networkx as nx
 
-from lightning_network.algorithms import ref, compute_cheapest_paths, heuristic_paths
-from lightning_network.listener import Listener
-from lightning_network.messages import Tx, NotifyNoPath
-from lightning_network.network import generate_network
+from src.algorithms import ref, compute_cheapest_paths, heuristic_paths
+from src.listener import Listener
+from src.messages import Tx, NotifyNoPath
+from src.network import generate_network
 
 
 def simulate(topology_file_path: str, n_txs: int, min_amount: int, max_amount: int, output: str):

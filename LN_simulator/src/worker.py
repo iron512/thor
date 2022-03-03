@@ -4,9 +4,9 @@ from typing import Type
 import networkx as nx
 from pykka import ThreadingActor, ActorRef, ActorDeadError
 
-from lightning_network.algorithms import calculate_fee, allocate_budget, ref, decrement_funds, \
+from src.algorithms import calculate_fee, allocate_budget, ref, decrement_funds, \
     increment_funds, deallocate_budget
-from lightning_network.messages import TxReq, TxCommit, TxPrecommit, TxAbort
+from src.messages import TxReq, TxCommit, TxPrecommit, TxAbort
 
 
 class Worker(ThreadingActor):

@@ -1,8 +1,8 @@
 import argparse
 from os.path import join
 
-from lightning_network.settings import available_topologies, TOPOLOGY_DIR
-from lightning_network.simulation import simulate
+from src.settings import available_topologies, TOPOLOGY_DIR
+from src.simulation import simulate
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
                         help="the minimum and minimum amount of money to transfer (20 and 100 by default)")
     parser.add_argument("-n","--number_tx", type=int, default=1,
                         help="number of transactions to simulate")
-    parser.add_argument("-t", type=str, choices=available_topologies(), default="topology1.json",
+    parser.add_argument("-t", type=str, choices=available_topologies(), default="test_topology.json",
                         help="Topology of the lightning network")
     parser.add_argument("-o","--output", type=str, default=None,
                         help="The output file for the simulation")

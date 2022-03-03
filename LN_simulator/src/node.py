@@ -5,10 +5,10 @@ from typing import Type
 import networkx as nx
 from pykka import ThreadingActor, ActorRef, ActorRegistry
 
-from lightning_network.algorithms import calculate_total_fee
-from lightning_network.listener import Listener
-from lightning_network.messages import TxPrecommit, TxAbort, TxReq, Tx, NotifyCommit, NotifyAbort, TxCommit
-from lightning_network.worker import Worker
+from src.algorithms import calculate_total_fee
+from src.listener import Listener
+from src.messages import TxPrecommit, TxAbort, TxReq, Tx, NotifyCommit, NotifyAbort, TxCommit
+from src.worker import Worker
 
 
 class Node(ThreadingActor):

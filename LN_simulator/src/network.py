@@ -3,10 +3,18 @@ from random import randint
 
 import networkx as nx
 
-from lightning_network.node import Node
+from src.node import Node
+
+def generate_network(filename: str) -> nx.DiGraph:
+     with open(filename) as f:
+            data = json.loads(f.read())["channels"][0]
+            if "node1_pub" in data:
+                return generate_network_complex(filename)
+            else:
+                return generate_network_std(filename)
 
 
-def generate_network_old(filename: str) -> nx.DiGraph:
+def generate_network_std(filename: str) -> nx.DiGraph:
     ln = nx.DiGraph()
 
     with open(filename) as f:
@@ -38,12 +46,14 @@ def generate_network_old(filename: str) -> nx.DiGraph:
                         funds=satoshis - value,
                         budget=satoshis - value)
 
+    print(f"Data loaded successfully ({len(ln.nodes)})")
     for node, value in nx.betweenness_centrality(ln).items():
         ln.nodes[node]["betweeness"] = value
+    print("Data computed successfully")
 
     return ln
 
-def generate_network(filename: str) -> nx.DiGraph:
+def generate_network_complex(filename: str) -> nx.DiGraph:
     ln = nx.DiGraph()
 
     with open(filename) as f:
