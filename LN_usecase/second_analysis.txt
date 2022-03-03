@@ -1,0 +1,55 @@
+Calculating betweenness centrality...
+Calculating closeness centrality...
+Calculating degree...
+There are 4169 nodes and 34623 edges.
+
+Crunching data for heur/1_heur.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 7 (0.7%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 27 (2.7%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 147 (14.7%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 417 (41.7%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 7 (0.7%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 27 (2.7%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 182 (18.2%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 469 (46.9%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 11 (1.1%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 29 (2.9%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 195 (19.5%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 456 (45.6%)
+
+Crunching data for heur/2_heur.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 8 (0.8%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 34 (3.4%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 192 (19.2%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 433 (43.3%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 8 (0.8%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 34 (3.4%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 213 (21.3%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 506 (50.6%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 18 (1.8%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 45 (4.5%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 233 (23.3%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 486 (48.6%)
+
+Crunching data for heur/3_heur.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 7 (0.7%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 32 (3.2%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 182 (18.2%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 436 (43.6%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 7 (0.7%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 32 (3.2%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 222 (22.2%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 492 (49.2%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 16 (1.6%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 40 (4.0%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 228 (22.8%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 471 (47.1%)

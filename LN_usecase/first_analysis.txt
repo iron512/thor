@@ -1,0 +1,55 @@
+Calculating betweenness centrality...
+Calculating closeness centrality...
+Calculating degree...
+There are 4169 nodes and 34623 edges.
+
+Crunching data for sim/1_sim.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 131 (13.1%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 232 (23.2%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 452 (45.2%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 641 (64.1%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 131 (13.1%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 232 (23.2%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 468 (46.8%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 639 (63.9%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 117 (11.7%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 236 (23.6%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 460 (46.0%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 621 (62.1%)
+
+Crunching data for sim/2_sim.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 140 (14.0%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 239 (23.9%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 433 (43.3%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 601 (60.1%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 140 (14.0%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 239 (23.9%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 448 (44.8%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 592 (59.2%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 129 (12.9%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 252 (25.2%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 437 (43.7%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 577 (57.7%)
+
+Crunching data for sim/3_sim.txt
+Betweeness centrality
+10%: selected nodes are 4 (4067 edges), controlled paths are 162 (16.2%)
+20%: selected nodes are 9 (7358 edges), controlled paths are 257 (25.7%)
+40%: selected nodes are 25 (14084 edges), controlled paths are 456 (45.6%)
+60%: selected nodes are 42 (20925 edges), controlled paths are 636 (63.6%)
+By degree
+10%: selected nodes are 4, (4067 edges) controlled paths are 162 (16.2%)
+20%: selected nodes are 9, (7358 edges) controlled paths are 257 (25.7%)
+40%: selected nodes are 23, (14125 edges) controlled paths are 474 (47.4%)
+60%: selected nodes are 41, (20913 edges) controlled paths are 644 (64.4%)
+Closeness centrality
+10%: selected nodes are 5 (4045 edges), controlled paths are 136 (13.6%)
+20%: selected nodes are 9 (7357 edges), controlled paths are 267 (26.7%)
+40%: selected nodes are 23 (13981 edges), controlled paths are 470 (47.0%)
+60%: selected nodes are 44 (20914 edges), controlled paths are 631 (63.1%)
