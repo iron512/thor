@@ -3,7 +3,7 @@ from random import randint
 
 import networkx as nx
 
-from src.node import Node
+from src_simulator.node import Node
 
 def generate_network(filename: str) -> nx.DiGraph:
      with open(filename) as f:

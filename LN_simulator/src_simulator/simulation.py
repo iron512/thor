@@ -2,10 +2,10 @@ from random import choice, randint
 
 import networkx as nx
 
-from src.algorithms import ref, compute_cheapest_paths, heuristic_paths
-from src.listener import Listener
-from src.messages import Tx, NotifyNoPath
-from src.network import generate_network
+from src_simulator.algorithms import ref, compute_cheapest_paths, heuristic_paths
+from src_simulator.listener import Listener
+from src_simulator.messages import Tx, NotifyNoPath
+from src_simulator.network import generate_network
 
 
 def simulate(topology_file_path: str, n_txs: int, min_amount: int, max_amount: int, output: str):

@@ -9,6 +9,6 @@ setup(
         "": ["topologies/*.json"]
     },
     entry_points={
-        "console_scripts": ["lnsimulate=src.command_line:main"],
+        "console_scripts": ["lnsimulate=src_simulator.command_line:main"],
     }
 )

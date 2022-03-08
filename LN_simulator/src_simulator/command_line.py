@@ -1,8 +1,8 @@
 import argparse
 from os.path import join
 
-from src.settings import available_topologies, TOPOLOGY_DIR
-from src.simulation import simulate
+from src_simulator.settings import available_topologies, TOPOLOGY_DIR
+from src_simulator.simulation import simulate
 
 
 def main():

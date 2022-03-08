@@ -3,7 +3,7 @@ import time
 import networkx as nx
 from pykka import ThreadingActor, ActorRegistry
 
-from src.messages import NotifyCommit, NotifyAbort
+from src_simulator.messages import NotifyCommit, NotifyAbort
 
 
 class Listener(ThreadingActor):
@@ -54,11 +54,11 @@ class Listener(ThreadingActor):
     def stop_all(self):
         # Do not use ActorRegistry.stop_all()
 
-        from src.node import Node
+        from src_simulator.node import Node
         for node in ActorRegistry.get_by_class(Node):
             node.stop(False)
 
-        from src.worker import Worker
+        from src_simulator.worker import Worker
         for worker in ActorRegistry.get_by_class(Worker):
             worker.stop(False)
 
